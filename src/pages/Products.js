@@ -2,24 +2,17 @@ import Product from "../components/Product";
 import { useState } from "react";
 import { data } from "../data";
 import React from "react";
+import Productscomponent from "../components/Productscomponent";
 
-class Products extends React.Component {
-  render () {
+const Products = () => {
 
   return (
     
     <div className="products">
-      {data.map(pizza => (
-        <Product pizza={pizza} />
-      ))}
-
-
-    
-        
             </div>
    
   )
-      }
+      
 }
 
 export default Products;

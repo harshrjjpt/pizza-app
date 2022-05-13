@@ -5,7 +5,8 @@ import Cart from './pages/Cart';
 import Products from './pages/Products';
 import Navbar from './components/Navbar';
 import './index.css';
-function App() {
+function App(props) {
+  const pizzas = props.store.getState();
   return (
     <div>
       <Router>
