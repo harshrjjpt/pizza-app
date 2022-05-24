@@ -116,17 +116,19 @@ const Cart = () => {
                     +
                   </button>
                 </div>
-                <span className="cartpic">
-                  <b>₹ {getSum(product._id, product.price)}</b>
-                </span>
-                <button
-                  onClick={() => {
-                    deleteItem(product._id);
-                  }}
-                  className="cartdelete"
-                >
-                  Delete
-                </button>
+                <div className="cart-right">
+                  <span>
+                    <b className="totalpaise">₹ {getSum(product._id, product.price)}</b>
+                  </span>
+                  <button
+                    onClick={() => {
+                      deleteItem(product._id);
+                    }}
+                    className="cartdelete"
+                  >
+                    Delete
+                  </button>
+                </div>
               </div>
             </li>
           );

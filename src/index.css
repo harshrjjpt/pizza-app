@@ -347,7 +347,7 @@ code {
   display: flex;
   width: 100%;
   margin: auto;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 .carttitle {
@@ -356,18 +356,33 @@ code {
 
 .cartpic {
   width: 4rem;
+  border-radius: 50%;
   margin-right: 12px;
+  transition: all 0.6s ease-in-out;
 }
 
 .cart-left {
+  flex: 2;
   display: flex;
   align-items: center;
 }
 
 .cart-middle {
+  flex: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.cart-right {
+  flex: 2;
+  display: flex;
+  justify-content: end;
+}
+
+.totalpaise {
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .cart-middle button {
@@ -410,6 +425,10 @@ code {
   align-items: center;
   margin-bottom: 2rem;
   list-style: none;
+}
+
+.cart-li:hover .cartpic {
+  transform: rotate(90deg);
 }
 
 .cart-total {
