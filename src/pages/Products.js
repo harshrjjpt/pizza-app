@@ -1,18 +1,13 @@
 import Product from "../components/Product";
-import { useState } from "react";
-import { data } from "../data";
 import React from "react";
 import Productscomponent from "../components/Productscomponent";
 
-const Products = () => {
-
+function Products(props) {
   return (
-    
     <div className="products">
-            </div>
-   
-  )
-      
+      <Productscomponent />
+    </div>
+  );
 }
 
 export default Products;

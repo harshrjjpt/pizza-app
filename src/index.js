@@ -1,37 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import { createStore } from 'redux';
-import App from './App';
-import Productscomponent from './components/Productscomponent';
-import reportWebVitals from './reportWebVitals';
-import pizzas from './reducers';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
-
-const store = createStore(pizzas);
-
-console.log('store', store);
-// console.log('store', store.getState());
-
-// store.dispatch({
-//   type: 'ADD_PIZZAS',
-//   pizzas: [{name: 'Paneeeer'}]
-// });
-
-
-// console.log('storeafter', store.getState());
-
- 
-
-
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App store={store} />
-    <Productscomponent store={store}/>
-
+    <App />
   </React.StrictMode>
 );
 
