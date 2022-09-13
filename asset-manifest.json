@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pizza-app/static/css/main.9b98d82b.css",
+    "main.js": "/pizza-app/static/js/main.23b1df64.js",
+    "static/js/787.3d66f7fd.chunk.js": "/pizza-app/static/js/787.3d66f7fd.chunk.js",
+    "index.html": "/pizza-app/index.html",
+    "main.9b98d82b.css.map": "/pizza-app/static/css/main.9b98d82b.css.map",
+    "main.23b1df64.js.map": "/pizza-app/static/js/main.23b1df64.js.map",
+    "787.3d66f7fd.chunk.js.map": "/pizza-app/static/js/787.3d66f7fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b98d82b.css",
+    "static/js/main.23b1df64.js"
+  ]
+}
