@@ -1,0 +1,9 @@
+/* Products */
+.productscomponent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 80%;
+    column-gap: 10px;
+  }

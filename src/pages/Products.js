@@ -1,4 +1,5 @@
 import Product from "../components/Product";
+import "./products.css";
 import React from "react";
 import Productscomponent from "../components/Productscomponent";
 

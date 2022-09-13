@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
-import "../index.css";
+import "./singleProduct.css";
 
 const SingleProduct = () => {
   const [product, setProduct] = useState({});

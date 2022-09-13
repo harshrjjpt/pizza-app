@@ -1,0 +1,90 @@
+
+/* SINGLE PRODUCT PAGE */
+
+.back {
+    margin-top: 5rem;
+    margin-left: 5.3rem;
+    background-color: #e2711d;
+    border: none;
+    color: white;
+    width: 7rem;
+    padding: 5px 10px;
+    height: 2rem;
+    font-weight: 600;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .back:hover {
+    color: #e2711d;
+    background-color: white;
+  }
+  
+  .single {
+    background-image: url(https://t3.ftcdn.net/jpg/04/80/84/74/360_F_480847426_fNrAJlMmPo2NatgPavNP20As6kEW9tsW.jpg);
+    width: 52%;
+    margin-left: 4rem;
+    border: #e2711d 23px solid;
+    border-radius: 3rem;
+    height: 54vh;
+    background-size: contain;
+    margin-top: 4rem;
+    display: flex;
+  }
+  
+  .single .singleleft {
+    align-items: center;
+    position: relative;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+  }
+  .single .singleright {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .single .singleleft img {
+    border-radius: 3rem;
+    width: 75%;
+    height: 100%;
+    margin-left: -8.3rem;
+  }
+  
+  .singletitle {
+    margin-bottom: 7rem;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  .singlesize {
+    margin-top: -7rem;
+  }
+  
+  .singleprice {
+    color: rgb(82, 80, 80);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .singleright button {
+    background-color: #e2711d;
+    border: none;
+    color: white;
+    width: 7rem;
+    padding: 5px 10px;
+    height: 2rem;
+    font-weight: 600;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .singleright button:hover {
+    color: #e2711d;
+    background-color: white;
+  }
+  
+  

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useContext, useState } from "react";
 import { CartContext } from "../CartContext";
+import "./cart.css";
 
 const Cart = () => {
   let total = 0;

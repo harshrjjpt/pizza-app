@@ -1,0 +1,144 @@
+/* cart */
+.cart-component {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+  }
+  .cart-head {
+    margin-bottom: 3rem;
+    margin-left: 0.5rem;
+  }
+  .cart {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .carttitle {
+    font-size: 1.2rem;
+  }
+  
+  .cartpic {
+    width: 4rem;
+    border-radius: 50%;
+    margin-right: 12px;
+    transition: all 0.6s ease-in-out;
+  }
+  
+  .cart-left {
+    flex: 2;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-middle {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cart-right {
+    flex: 2;
+    display: flex;
+    justify-content: end;
+  }
+  
+  .totalpaise {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  
+  .cart-middle button {
+    font-weight: 800;
+    font-size: 0.8rem;
+    margin: 0px 10px;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: none;
+    background-color: #e2711d;
+    transition: all 0.3s;
+  }
+  .cart-middle button:hover {
+    background-color: white;
+    color: #e2711d;
+  }
+  
+  .cartdelete {
+    background-color: red;
+    border: none;
+    color: white;
+    width: 5rem;
+    padding: 5px 10px;
+    height: 2rem;
+    font-weight: 600;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .cartdelete:hover {
+    background-color: white;
+    color: red;
+  }
+  
+  .cart-li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    list-style: none;
+  }
+  
+  .cart-li:hover .cartpic {
+    transform: rotate(90deg);
+  }
+  
+  .cart-total {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .order-btn {
+    background-color: #e2711d;
+    border: none;
+    color: white;
+    width: 6rem;
+    padding: 5px 10px;
+    height: 2rem;
+    font-weight: 600;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .order-btn-div {
+    display: flex;
+    justify-content: end;
+  }
+  .cart-total .grand {
+    font-size: 1.2rem;
+  }
+  .empty-cart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .empty-cart {
+    margin-top: 4rem;
+    align-items: center;
+    width: 40rem;
+    opacity: 0.2;
+  }
+  
+  hr {
+    color: black;
+    border: 2px;
+  }
+  

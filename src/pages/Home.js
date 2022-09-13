@@ -1,9 +1,10 @@
 import "../index.css";
+import "./home.css"
 import Productscomponent from "../components/Productscomponent";
 
 const Home = () => {
   return (
-    <div>
+    <div className="main">
       <div className="home-box">
         <div className="home-box-left">
           <p className="home-text">Are you hungry?</p>

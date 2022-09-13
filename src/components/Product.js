@@ -2,11 +2,16 @@ import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { CartContext } from "../CartContext";
 import { useState } from "react";
+import "./product.css";
 
 const Product = (props) => {
   const [isAdding, setIsAdding] = useState(false);
   const { cart, setCart } = useContext(CartContext);
   const { product } = props;
+
+  const imgClick = (event) => {
+    event.preventDefault();
+  }
 
   const addToCart = (event, product) => {
     event.preventDefault();
@@ -39,7 +44,9 @@ const Product = (props) => {
     <Link to={`/products/${product._id}`}>
       <div className="card">
         <div className="head">
-          <img className="pizza-pic" alt="pizza-image" src={product.image} />
+          <img  onClick={(e) => {
+                imgClick(e);
+              }} className="pizza-pic" alt="pizza-image" src={product.image} />
           <h3>{product.name}</h3>
 
           <span>{product.size}</span>

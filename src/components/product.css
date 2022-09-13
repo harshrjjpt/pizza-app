@@ -1,0 +1,77 @@
+/*  Product */
+
+.card .head .pizza-pic {
+    width: 11rem;
+    flex-wrap: wrap;
+    border-radius: 50%;
+    margin-bottom: -0.5rem;
+    transition: all 0.5s ease-in-out;
+  }
+  .card:hover .head .pizza-pic {
+    width: 11.7rem;
+  }
+  
+  .card .head img {
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .card:hover .head img {
+    transform: rotate(90deg);
+  }
+  
+  .head span {
+    width: 14px;
+    font-weight: 500;
+    background-color: #e2711d;
+    padding: 4px 6px;
+    border-radius: 0.8rem;
+  }
+  
+  .card {
+    color: black !important;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 20rem;
+    margin-top: 50px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    width: 15rem;
+    float: left;
+    background-color: #e2711d;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 1px 0px 20px #404244;
+  }
+  
+  .card .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 6px;
+  }
+  
+  .footer .active-btn {
+    cursor: pointer;
+    width: 4rem;
+    background-color: black;
+    color: #fca311;
+    border-radius: 1rem;
+    border: none;
+    font-weight: 900;
+    padding: 3px 7px;
+  }
+  
+  .footer .inactive-btn {
+    cursor: pointer;
+    width: 4rem;
+    background-color: #fca311;
+    border-radius: 1rem;
+    border: none;
+    font-weight: 900;
+    padding: 3px 7px;
+  }
+  
