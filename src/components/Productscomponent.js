@@ -5,13 +5,14 @@ import { CartContext } from "../CartContext";
 
 const Productscomponent = () => {
   // const { name } = useContext(CartContext);
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState([data]);
   useEffect(() => {
-    fetch("/api/products")
-      .then((response) => response.json())
-      .then((products) => {
-        setProducts(products);
-      });
+    // fetch("/api/products")
+    //   .then((response) => response.json())
+    //   .then((products) => {
+    //     setProducts(products);
+    //   });
+    setProducts(data);
   }, []);
 
   return (

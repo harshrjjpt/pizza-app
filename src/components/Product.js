@@ -46,14 +46,14 @@ const Product = (props) => {
         <div className="head">
           <img  onClick={(e) => {
                 imgClick(e);
-              }} className="pizza-pic" alt="pizza-image" src={product.image} />
-          <h3>{product.name}</h3>
+              }} className="pizza-pic" alt="pizza-image" src={product.Image} />
+          <h3>{product.Title}</h3>
 
-          <span>{product.size}</span>
+          <span>{product.Size}</span>
         </div>
         <div className="footer">
           <div>
-            <span style={{ fontWeight: "700" }}>₹ {product.price}</span>
+            <span style={{ fontWeight: "700" }}>₹ {product.Price}</span>
           </div>
           <div>
             <button
