@@ -6,6 +6,7 @@ const data = [
   {
     Title: "Paneer Pizza",
     Size: "medium",
+    
     Price: 500,
     Image: "https://pngimg.com/uploads/pizza/pizza_PNG7111.png",
     Id: 1,
