@@ -47,10 +47,11 @@ const Navbar = () => {
         </ul>
       </div> : null}
       <div className="left">
-        
+
         <Link to="/">
           <img
             className="logo-pic"
+            
             alt="logo"
             src="https://img.icons8.com/arcade/344/experimental-pizza-arcade.png"
           />
