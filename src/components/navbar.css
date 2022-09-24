@@ -79,6 +79,47 @@
     font-family: cursive;
     color: #e2711d;
   }
+  .hamburger-icon{
+    width: 30px;
+    position: absolute;
+    right: 5px;
+    top: -66px;
+    display: none;
+  }
+  .modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+    width: 75%;
+    height: 326px;
+    background-color: #e2721dda;
+    position: absolute;
+    top: 145px;
+    left: 44px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .modal ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    padding: 0px;
+    height: 70%;
+  }
+  .modal ul li{
+    font-size: 25px;
+  }
+  @media screen and (max-width: 500px) {
+    .hamburger-icon{
+      display: block;
+    }
+    .nav .right ul{
+      display: none;
+    }
+  } 
 
 
   

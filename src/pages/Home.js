@@ -18,7 +18,7 @@ const Home = () => {
           <button>Order Now</button>
         </div>
         <div className="home-box-right">
-          <img alt="home-image" src="/images/main-pizza.png" />
+          <img alt="home-image" src="https://www.freeiconspng.com/thumbs/pizza-png/pizza-png-15.png" />
         </div>
       </div>
 
