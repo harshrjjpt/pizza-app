@@ -47,6 +47,7 @@ const Navbar = () => {
         </ul>
       </div> : null}
       <div className="left">
+        
         <Link to="/">
           <img
             className="logo-pic"
